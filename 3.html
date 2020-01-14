@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Page</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        .container{
+            background-color: white;
+            margin:5% 10%;
+        }
+        header{
+            /* border :1px solid black; */
+            height:200px;
+        }
+        header div{
+            top:10%;
+            position: relative;
+            /* border:1px solid black; */
+        }
+        div img{
+            margin-left:5%;
+            width:150px; height:80px;
+        }
+        div input{
+            position: relative;
+            margin:5%;
+            float:right;
+            /* border:1px solid black; */
+        }
+        .box_container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-left: auto; margin-right: auto;
+        }
+        .box{
+            /* border:1px solid black; */
+            height:50px; width: 200px;
+            background-color: white;
+            text-align: center;
+        }
+        nav{
+            display:table;
+            width:100%;
+        }
+        .content_container{
+            display: flex;
+            flex-direction: row;
+            height:500px;
+            text-align: center;
+        }
+        main{
+            flex-grow: 3;            
+            border:1px solid black;
+    
+        }
+        aside{
+            flex-grow: 1;
+            border:1px solid black;
+        }
+        footer{
+            display: flex;
+            justify-content: center;
+            height:200px;
+            text-align: center;
+            margin:auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <img src="img1.jpg">
+                <input type="search">
+            </div>
+        </header>
+        <nav class="box_container">
+            <button class="box"> SINGLE </button>
+            <button class="box"> ALBUM </button>
+            <button class="box"> INTRODUCTION </button>
+            <button class="box"> MYPAGE </button>
+            <button class="box"> FAQ </button>
+        </nav>
+        <div class="content_container">
+            <main>
+                <div>asdf</div>
+            </main>
+            <aside>
+                <div>asdf</div>
+            </aside>
+        </div>
+        <footer>
+            <a>hello</a>
+        </footer>
+    </div>
+</body>
+</html>
