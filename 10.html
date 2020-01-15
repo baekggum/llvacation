@@ -12,46 +12,112 @@
         }
         .name_box{
             width: 80%;
-            height: 300px;
-            border: 1px solid black;
+            height: 500px;
+            /* border: 1px solid black; */
         }
         .out_circle_box{
             display:grid;
-            grid-template-columns: 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333% 8.3333%;
-            grid-template-rows: 150px 150px;
+            grid-template-columns:repeat(8.333334%,12);
+            grid-template-rows: 250px 250px;
         }
         .circle_box{
-            /* display:flex;
-            justify-content: center; */
-            border: 1px solid black;
+            display:flex;
+            justify-content: center;
+            margin-top:5%;
+            width:150px;
+            height:150px;
+            border-radius: 100%; 
+            background-size:cover;
+            /* box-shadow: grey 3px 3px 3px 3px; */
+            border: 2px solid black;
+        }
+        .out_circle_box div:nth-child(1) .circle_box{
+            background-image: url("jaewook.jpg");
+        }
+        .out_circle_box div:nth-child(2) .circle_box{
+            background-image: url("#");
+        }
+        .out_circle_box div:nth-child(3) .circle_box{
+            background-image: url("#");
+        }
+        .out_circle_box div:nth-child(4) .circle_box{
+            background-image: url("#");
+        }
+        .out_circle_box div:nth-child(5) .circle_box{
+            background-image: url("#");
+        }
+        .out_circle_box div:nth-child(6) .circle_box{
+            background-image: url("#");
+        }
+        .out_circle_box div:nth-child(7) .circle_box{
+            background-image: url("#");
+        }
+        /* .circle_box img{
+            width:100px;
+            height:100px;
+        }
+        .circle_box img:hover{
+            cursor:pointer;
+            -webkit-transform:scale(1.1); 
+            -moz-transform:scale(1.1);  
+            -o-transform:scale(1.1);  
+            transform:scale(1.1);
+            transition: transform .35s;
+            -o-transition: transform .35s;
+            -moz-transition: transform .35s;
+            -webkit-transition: transform .35s;
+        } */
+        .under_box{
+            border:2px solid #aba196;
+            width:100%;
+            height:60px;
+            margin-top:160px;
         }
         .item1{
-            grid-column: 1/4;
-            border: 1px solid black;
+            display:flex;
+            justify-content: center;
+            grid-column: 1/5;
+            /* border: 1px solid black; */
         }
         .item2{
-            grid-column: 4/7;
-            border: 1px solid black;
+            display:flex;
+            justify-content: center;
+            grid-column: 5/9;
+            /* border: 1px solid black; */
         }
         .item3{
-            grid-column: 7/10;
-            border: 1px solid black;
+            display:flex;
+            justify-content: center;
+            grid-column: 9/13;
+            /* bor
+            display:flex;
+            justify-content: center;
+            grid-column: 1/4;
+            /* border: 1px solid black; */
         }
         .item4{
-            grid-column: 10/13;
-            border: 1px solid black;
+            display:flex;
+            justify-content: center;
+            grid-column: 1/4;
+            /* border: 1px solid black; */
         }
         .item5{
-            grid-column: 1/5;
-            border: 1px solid black;
+            display:flex;
+            justify-content: center;
+            grid-column: 4/7;
+            /* border: 1px solid black; */
         }
         .item6{
-            grid-column: 5/9;
-            border: 1px solid black;
+            display:flex;
+            justify-content: center;
+            grid-column: 7/10;
+            /* border: 1px solid black; */
         }
         .item7{
-            grid-column: 9/13;
-            border: 1px solid black;
+            display:flex;
+            justify-content: center;
+            grid-column: 10/13;
+            /* border: 1px solid black; */
         }
     </style>
 </head>
@@ -59,25 +125,41 @@
     <div class="out_name_box">
         <div class="name_box">
             <div class="out_circle_box">
-                <!-- <div class="circle_box"></div>
-                <div class="circle_box"></div>
-                <div class="circle_box"></div>
-                <div class="circle_box"></div>
-                <div class="circle_box"></div>
-                <div class="circle_box"></div>
-                <div class="circle_box"></div>
-                <div class="circle_box"></div>
-                <div class="circle_box"></div>
-                <div class="circle_box"></div>
-                <div class="circle_box"></div>
-                <div class="circle_box"></div> -->
-                <div class="item1"></div>
-                <div class="item2"></div>
-                <div class="item3"></div>
-                <div class="item4"></div>
-                <div class="item5"></div>
-                <div class="item6"></div>
-                <div class="item7"></div>
+                <div class="item1">
+                    <div class="circle_box">
+                        <div class="under_box"></div>
+                    </div>
+                </div>
+                <div class="item2">
+                    <div class="circle_box">
+                        <div class="under_box"></div>
+                    </div>
+                </div>
+                <div class="item3">
+                    <div class="circle_box">
+                        <div class="under_box"></div>
+                    </div>
+                </div>
+                <div class="item4">
+                    <div class="circle_box">
+                        <div class="under_box"></div>
+                    </div>
+                </div>
+                <div class="item5">
+                    <div class="circle_box">
+                        <div class="under_box"></div>
+                    </div>
+                </div>
+                <div class="item6">
+                    <div class="circle_box">
+                        <div class="under_box"></div>
+                    </div>
+                </div>
+                <div class="item7">
+                    <div class="circle_box">
+                        <div class="under_box"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
