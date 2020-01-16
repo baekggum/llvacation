@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: 'KoPubWorld_Dotum';
+            src: url(KOPUBWORLD_TTF_FONTS/KoPubWorld_Dotum_Medium.ttf) format('truetype')
+        }
+        .out_name_box{
+            display:flex;
+            justify-content: center;
+        }
+        .name_box{
+            width: 80%;
+            height: 500px;
+            /* border: 1px solid black; */
+        }
+        .out_circle_box{
+            display:grid;
+            grid-template-columns:repeat(8.333334%,12);
+            grid-template-rows: 250px 250px;
+        }
+        .circle_box{
+            text-align: center;
+            display:flex;
+            justify-content: center;
+            margin-top:5%;
+            width:auto;
+            height:150px;
+            border-radius: 100%; 
+            background-size:cover;
+            /* box-shadow: grey 3px 3px 3px 3px; */
+            /* border: 2px solid black; */
+        }
+        .out_circle_box div:nth-child(1) .circle_box{
+            background-image: url("jaewook.jpg");
+        }
+        .out_circle_box div:nth-child(2) .circle_box{
+            background-image: url("suhwan1.jpg");
+        }
+        .out_circle_box div:nth-child(3) .circle_box{
+            background-image: url("blank.jpg");
+        }
+        .out_circle_box div:nth-child(4) .circle_box{
+            background-image: url("blank.jpg");
+        }
+        .out_circle_box div:nth-child(5) .circle_box{
+            background-image: url("uiyeon.jpg");
+        }
+        .out_circle_box div:nth-child(6) .circle_box{
+            background-image: url("blank.jpg");
+        }
+        .out_circle_box div:nth-child(7) .circle_box{
+            background-image: url("blank.jpg");
+        }
+        /* .circle_box img{
+            width:100px;
+            height:100px;
+        }
+        .circle_box img:hover{
+            cursor:pointer;
+            -webkit-transform:scale(1.1); 
+            -moz-transform:scale(1.1);  
+            -o-transform:scale(1.1);  
+            transform:scale(1.1);
+            transition: transform .35s;
+            -o-transition: transform .35s;
+            -moz-transition: transform .35s;
+            -webkit-transition: transform .35s;
+        } */
+        .under_box{
+            font-family:KoPubWorld_Dotum;
+            /* border:2px solid #aba196; */
+            width:auto;
+            height:60px;
+            margin-top:160px;
+        }
+        .item1{
+            display:flex;
+            justify-content: center;
+            grid-column: 1/5;
+            /* border: 1px solid black; */
+        }
+        .item2{
+            display:flex;
+            justify-content: center;
+            grid-column: 5/9;
+            /* border: 1px solid black; */
+        }
+        .item3{
+            display:flex;
+            justify-content: center;
+            grid-column: 9/13;
+            /* bor
+            display:flex;
+            justify-content: center;
+            grid-column: 1/4;
+            /* border: 1px solid black; */
+        }
+        .item4{
+            display:flex;
+            justify-content: center;
+            grid-column: 1/4;
+            /* border: 1px solid black; */
+        }
+        .item5{
+            display:flex;
+            justify-content: center;
+            grid-column: 4/7;
+            /* border: 1px solid black; */
+        }
+        .item6{
+            display:flex;
+            justify-content: center;
+            grid-column: 7/10;
+            /* border: 1px solid black; */
+        }
+        .item7{
+            display:flex;
+            justify-content: center;
+            grid-column: 10/13;
+            /* border: 1px solid black; */
+        }
+    </style>
+</head>
+<body>
+    <div class="out_name_box">
+        <div class="name_box">
+            <div class="out_circle_box">
+                <div class="item1">        
+                    <div class="circle_box">
+                        <div class="under_box"> 7, 8기 계대 멋사 운영진<br><b>안재욱</b></div>
+                    </div>
+                </div>
+                <div class="item2">
+                    <div class="circle_box">
+                        <div class="under_box"> 7, 8기 계대 멋사 운영진<br><b>김수환</b></div>
+                    </div>
+                </div>
+                <div class="item3">
+                    <div class="circle_box">
+                        <div class="under_box"> 7, 8기 계대 멋사 운영진<br><b>이병률</b></div>
+                    </div>
+                </div>
+                <div class="item4">
+                    <div class="circle_box">
+                        <div class="under_box"> 8기 계대 멋사 운영진<br><b></b></div>
+                    </div>
+                </div>
+                <div class="item5">            
+                    <div class="circle_box">
+                        <div class="under_box"> 8기 계대 멋사 운영진<br><b>임의연</b></div>
+                    </div>
+                </div>
+                <div class="item6">
+                    <div class="circle_box">
+                        <div class="under_box"> 8기 계대 멋사 운영진<br><b></b></div>
+                    </div>
+                </div>
+                <div class="item7">
+                    <div class="circle_box">
+                        <div class="under_box"> 8기 계대 멋사 운영진<br><b></b></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
